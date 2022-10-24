@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* int print_sign - a function that prints the sign of a number
-* @n: The interger to ne dfined 
+* print_sign - a function that prints the sign of a number
+* @n: The interger to ne dfined
 * Return: 1, 0, or -1
 */
 
