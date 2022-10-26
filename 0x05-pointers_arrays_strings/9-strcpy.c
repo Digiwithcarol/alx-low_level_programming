@@ -2,26 +2,24 @@
 #include <stdio.h>
 
 /**
-*_strpy - copies the string pointed to y src
-* including the terninsting null byte, to the 
+*_strcpy - copies the string pointed to y src
+* including the terninsting null byte, to the
 *buffer pointed to by dest
- * @dest: destination
-* src: source
-* Return: the pointer to dest 
+* @dest: destination
+* @src: source
+* Return: the pointer to dest
 */
 
-char *_strcpy(char *dest, char * src)
+char *_strcpy(char *dest, char *src)
 {
-	int count o;
+	int count 0;
 
-	while(count >= 0)
+	while (*(src + count) != '\0')
 {
 	*(dest + count) = *(src + count);
-
-if (*(src + count) == '\0')
-		break;
 	count++;
 }
-	return(dest);
+
+	*(src + count) = '\0';
+	return (dest);
 }
-	
