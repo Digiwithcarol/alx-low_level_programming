@@ -17,6 +17,6 @@ char *_strcpy(char *dest, char *src)
 		lon++;
 	}
 
-	*(dest + lon) = '\0;
+	*(dest + lon) = '\0';
 	return (dest);
 }
