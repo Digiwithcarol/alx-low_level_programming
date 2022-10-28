@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* print_line - prints a straignht line using
-* @n: the number of "_" to be printed
+* print_line - prints a straignht line using '_'
+* @n: the number of '_' to be printed
 */
 void print_line(int n)
 {
@@ -14,3 +14,4 @@ void print_line(int n)
 			_putchar('_');
 	}
 	_putchar('\n');
+}
