@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - writes a function that prints the last digit of a number
+* print_last_digit - writes a function that prints the last digit of a number
 * @n: the passed args
 * Return: Always 0
 */
@@ -15,6 +15,5 @@ int print_last_digit(int n)
 
 	_putchar(xoo + '0');
 
-	return (xoo);
+	return (0);
 }
-
